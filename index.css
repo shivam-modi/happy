@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+h1 {
+    top:20px;
+    text-align:center;
+    font-family:'Montserrat',serif;
+    font-weight:Bold;
+    color:#000;
+    z-index:2;
+    font-size:15vw;
+    position:absolute;
+    text-rendering: 1px white;
+    stroke-dasharray: 500;
+  stroke-dashoffset: 0;
+  animation: text 3s linear infinite;
+  text-shadow:0 0 10px #228DFF;
+}
+
+@keyframes text{
+  0%{
+      color: inherit;
+  }
+  50%{
+      color: #06b3bf;
+  }
+  100%{
+      color:#000 ;
+  }
+}
